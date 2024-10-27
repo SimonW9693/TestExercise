@@ -1,27 +1,27 @@
 ---
-Feature: This folder is for all tests related to the home page
+Testspace: This folder is for all tests related to the home page
 ---
-
+#Tests
 ## Test Case One
 All button links lead to the correct page
 
-* Check clicking on the Buy energy button navigates to the Buy Energy page
-* Check clicking on the Sell energy button navigates to the Sell Energy page
-* Check clicking on the Learn more button navigates to the About ENSEK page
-* Check clicking on the Find out more button navigates to the ENSEK home page
+- Check clicking on the Buy energy button navigates to the Buy Energy page
+- Check clicking on the Sell energy button navigates to the Sell Energy page
+- Check clicking on the Learn more button navigates to the About ENSEK page
+- Check clicking on the Find out more button navigates to the ENSEK home page
 
 ## Test Case Two
 All menu links lead to the correct page
 
-* Check clicking on the menu link Home navigates to the Home page
-* Check clicking on the menu link About navigates to the About ENSEK page
-* Check clicking on the menu link Contact navigates to the Contact page
-* Check clicking on the menu link Register navigates to the Register page
-* Check clicking on the menu link Log in navigates to the Log in page
+- Check clicking on the menu link Home navigates to the Home page
+- Check clicking on the menu link About navigates to the About ENSEK page
+- Check clicking on the menu link Contact navigates to the Contact page
+- Check clicking on the menu link Register navigates to the Register page
+- Check clicking on the menu link Log in navigates to the Log in page
 
 ## Test Case Three
 Page formating and elements are displayed correctly
 
-* Check all text is formatted correctly and no spelling errors are present
-* Check the company logo is displayed correctly
-* Check the menu button can be pressed and displays a list of options, and when pressed again it will hide the list of options 
+- Check all text is formatted correctly and no spelling errors are present
+- Check the company logo is displayed correctly
+- Check the menu button can be pressed and displays a list of options, and when pressed again it will hide the list of options 
