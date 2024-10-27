@@ -3,4 +3,7 @@ Feature: This folder is for all tests related to the About us page
 ---
 
 ## Test Case One:
+Check the elemnts and styling on the page and button navigation works as expected
 
+** Click on the Find out more about us button and check the main home page is displayed correctly
+** Check the text is readable and no spelling errors are present
