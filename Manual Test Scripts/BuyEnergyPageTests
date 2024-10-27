@@ -3,3 +3,25 @@ Feature: This folder is for all tests related to the Buy energy page
 ---
 
 ## Test Case One:
+Check each energy type field can have a value submited
+
+* Enter a value for the Gas energy type and test the sale purchase is completed
+* Enter a value for the Electricity energy type and test the sale purchase is completed
+* Enter a value for the Oil energy type and test the sale purchase is completed
+
+## Test Case Two:
+Check invalid values in the energy type fields do not record a sale
+
+* Enter an invalid value for the Gas energy type and test the sale purchase throws an error
+* Enter an invalid value for the Electricity energy type and test the sale purchase throws an error
+* Enter an invalid value for the Oil energy type and test the sale purchase throws an error
+
+## Test Case Three:
+Check energy quantity value and the expected output
+
+* Check if an energy type has a quanity greater than 0, the site allows the user to enter a value for submission
+* Check if an energy type has a quanity of 0, the site removes the unit field and buy button and the text "Not Available" is displayed
+
+## Test Case Four:
+Check the styling, text and page objects
+
