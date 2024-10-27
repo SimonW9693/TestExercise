@@ -5,28 +5,28 @@ Feature: This folder is for all tests related to the Buy energy page
 ## Test Case One:
 Check each energy type field can have a correct value submited
 
-* Enter a valid value for the Gas energy type and test the sale purchase is completed
-* Enter a valid value for the Electricity energy type and test the sale purchase is completed
-* Enter a valid value for the Oil energy type and test the sale purchase is completed
+- Enter a valid value for the Gas energy type and test the sale purchase is completed
+- Enter a valid value for the Electricity energy type and test the sale purchase is completed
+- Enter a valid value for the Oil energy type and test the sale purchase is completed
 
 ## Test Case Two:
 Check invalid values in the energy type fields do not record a sale
 
-* Enter an invalid value for each energy type and test the sale purchase throws an error
-* Enter a value that exceeds the quantity avaiable for each energy type and check an error is thrown
+- Enter an invalid value for each energy type and test the sale purchase throws an error
+- Enter a value that exceeds the quantity avaiable for each energy type and check an error is thrown
 
 ## Test Case Three:
 Check energy quantity value and the expected output
 
-* Check if an energy type has a quantity greater than 0, the site allows the user to enter a value for submission
-* Check if the user purchases an energy type, the quantity updates correctly
-* Check if an energy type has a quantity of 0 or less, the site removes the required unit field and buy button and the text "Not Available" is displayed
+- Check if an energy type has a quantity greater than 0, the site allows the user to enter a value for submission
+- Check if the user purchases an energy type, the quantity updates correctly
+- Check if an energy type has a quantity of 0 or less, the site removes the required unit field and buy button and the text "Not Available" is displayed
 
 ## Test Case Four:
 Check the styling, text and page objects
 
-* Check the text is readable and no spelling errors are present
-* Check each energy table heading is left aligned, and in bold Black font
-* Check the text related for each table heading is correctly displayed below and does not overlap
-* Check the offer section displays the discounted amount correctly
-* Check the Back to Homepage button navigates back to the home page correctly
+- Check the text is readable and no spelling errors are present
+- Check each energy table heading is left aligned, and in bold Black font
+- Check the text related for each table heading is correctly displayed below and does not overlap
+- Check the offer section displays the discounted amount correctly
+- Check the Back to Homepage button navigates back to the home page correctly

@@ -1,0 +1,16 @@
+---
+Feature: This folder is for all completed test runs
+---
+
+## Completed test run from the file BuyEnergyPageTests for Test Case Two
+
+- Enter an invalid value for each energy type and test the sale purchase throws an error
+
+I entered a mixture of values such as "!" and blank fields for each energy type and pressed the "Buy" button. I was redirected to the Error page - Pass
+
+- Enter a value that exceeds the quantity avaiable for each energy type and check an error is thrown
+
+The default value for Oil was 20,then I entered a value of 50 in the "Oil" field and pressed the "Buy" button. I was able to purchase more Oil than we currently have available - Fail
+
+## Test Evidence 
+
