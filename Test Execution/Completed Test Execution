@@ -12,7 +12,8 @@ I entered a mixture of values such as "!" and blank fields for each energy type 
 
 The default value for Oil was 20,then I entered a value of 50 in the "Oil" field and pressed the "Buy" button. I was able to purchase more Oil than we currently have available - Fail
 
-## Test Evidence 
+## Test details:
 
-https://ensekautomationcandidatetest.azurewebsites.net/
-
+Tester: Simon Woodhouse
+Date: 27/10/2024
+Website: https://ensekautomationcandidatetest.azurewebsites.net/
