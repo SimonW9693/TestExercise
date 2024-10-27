@@ -5,9 +5,9 @@ Feature: This folder is for all tests related to the Buy energy page
 ## Test Case One:
 Check each energy type field can have a correct value submited
 
-* Enter a value for the Gas energy type and test the sale purchase is completed
-* Enter a value for the Electricity energy type and test the sale purchase is completed
-* Enter a value for the Oil energy type and test the sale purchase is completed
+* Enter a valid value for the Gas energy type and test the sale purchase is completed
+* Enter a valid value for the Electricity energy type and test the sale purchase is completed
+* Enter a valid value for the Oil energy type and test the sale purchase is completed
 
 ## Test Case Two:
 Check invalid values in the energy type fields do not record a sale
@@ -29,3 +29,4 @@ Check the styling, text and page objects
 * Check each energy table heading is left aligned, and in bold Black font
 * Check the text related for each table heading is correctly displayed below and does not overlap
 * Check the offer section displays the discounted amount correctly
+* Check the Back to Homepage button navigates back to the home page correctly
